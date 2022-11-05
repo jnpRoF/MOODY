@@ -3,7 +3,7 @@ import "../../../node_modules/bootsrap icons/icons-1.3.0/font/bootstrap-icons.cs
 const MiniItem = ({ imgSrc, imgClass, children, miniPrice }) => {
   return (
     <div style={{ width: "22%", marginTop: "25px" }}>
-      <img src={imgSrc} className={imgClass} />
+      <img src={imgSrc} className={imgClass} alt="" />
       <p className="mini-text2">{children}</p>
       <div className="ratings">
         <i className="bi bi-star icon"></i>

@@ -37,11 +37,11 @@ import tower from "../assets/tower.png";
 import vas from "../assets/vas.png";
 import wC from "../assets/w-c.png";
 
-const Imgs = () => {
-  return <img src={banner} />;
-};
+// const Imgs = () => {
+//   return <img src={banner} />;
+// };
 // export default Imgs;
-export default {
+const IMAGE = {
   banner,
   basket,
   basket2,
@@ -81,3 +81,5 @@ export default {
   vas,
   wC,
 };
+
+export default IMAGE;
